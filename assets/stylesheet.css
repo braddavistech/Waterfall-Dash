@@ -49,6 +49,24 @@
     right: 2%;
 }
 
+.nav_buttons > button {
+    font-weight: bold;
+    background-color: lightgray;
+    margin-right: 3%;
+    border: 2px solid;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.nav_buttons > button:hover {
+    background-color: black;
+    color: white;
+    margin-right: 3%;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
 
 /* Grid
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
