@@ -83,10 +83,10 @@ app.layout = html.Div([
 last_back = 0
 last_next = 0
 
-df = pd.read_csv("data/yield_curve.csv")
+df = pd.read_csv("data/simple.csv")
 
-xlist = list(df["x"].dropna())
-ylist = list(df["y"].dropna())
+xlist = list(df["Engine"].dropna())
+ylist = list(df["RPM"].dropna())
 
 del df["x"]
 del df["y"]
